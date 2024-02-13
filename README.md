@@ -1,2 +1,2 @@
-# css---exercises
+# css-exercises
 exercises about css 
