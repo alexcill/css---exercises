@@ -1,0 +1,8 @@
+
+html{
+  font-size: 11px;
+}
+
+p + p  {
+  border-color: yellow;
+}

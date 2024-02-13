@@ -1,0 +1,61 @@
+/*  
+made in spd 
+
+selector {
+  property: value; <--- declaration 
+}
+*/
+
+html{
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+article {
+  color: purple;
+  background-color: pink;
+}
+
+/* multiple selectors */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 1.2;
+}
+
+
+/* selector targeting descendants (separated by space) */
+main p {
+  border: 2px solid blue;
+}
+
+/* selector targeting direct descendants (separated by arrow) */
+section > p {
+  border: 10px dashed red;
+}
+
+/* selector targeting the next siblings (separated by plus) */
+header + section {
+  border: 10px dashed green;
+}
+
+/* class name selector (start with dot)  */
+
+.title {
+  color: orange;
+}
+
+
+
+
